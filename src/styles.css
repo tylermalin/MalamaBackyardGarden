@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; }
+.container { padding: 24px; max-width: 900px; margin: auto; }
+button { padding: 10px 16px; margin-top: 12px; background: #22c55e; border: none; color: black; cursor: pointer; }
+input, select { display: block; margin: 8px 0; padding: 8px; }
+.card { background: #1e293b; padding: 16px; margin-top: 16px; border-radius: 8px; }
+.chartCard { margin-top: 20px; }
+.chart { width: 100%; height: auto; stroke: #94a3b8; fill: none; }
+.lineA { stroke: #94a3b8; }
+.lineB { stroke: #22c55e; }
+.lineC { stroke: #38bdf8; }
+.legend { display: flex; gap: 16px; margin-top: 8px; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; }
+.dotA { background: #94a3b8; }
+.dotB { background: #22c55e; }
+.dotC { background: #38bdf8; }
+.axisLabel { font-size: 10px; fill: #94a3b8; }
+.muted { color: #64748b; }
